@@ -100,18 +100,6 @@ nav {
 /* INICIO */
 /* ----------------------------------------------------------------------------------------------------- */
 /* NOSOTRES */
-.slogan {
-  grid-area: slogan;
-  text-align: center;
-  text-decoration: underline;
-  letter-spacing: 2px;
-  font-weight: bold;
-  font-size: 3rem;
-  height: 5rem;
-  width: 100%;
-  margin-top: 1%;
-  padding: 0; }
-
 .adelantarse {
   animation: fade-in-fwd 3s cubic-bezier(0.39, 0.575, 0.565, 1) 1s both; }
 
@@ -164,8 +152,8 @@ nav {
 /* FORM CONTACTO */
 fieldset {
   border: solid 2px #01baef;
-  width: 50%;
-  margin: 0 auto;
+  width: 100%;
+  margin: 5% auto;
   padding: 1% 1%; }
 
 legend {
