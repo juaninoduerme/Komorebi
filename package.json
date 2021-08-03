@@ -14,5 +14,13 @@
     "nodemon": "^2.0.12"
   },
   "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juaninoduerme/Komorebi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/juaninoduerme/Komorebi/issues"
+  },
+  "homepage": "https://github.com/juaninoduerme/Komorebi#readme",
   "description": ""
 }
