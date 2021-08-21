@@ -50,6 +50,12 @@ p {
   margin: 5%;
   text-align: justify; }
 
+.pClaro {
+  font-size: 1.5rem;
+  margin: 5%;
+  text-align: justify;
+  color: #f9f2e7; }
+
 .parrafoTarjeta {
   text-align: center; }
 
@@ -177,12 +183,17 @@ label {
 
 /* ----------------------------------------------------------------------------------------------------- */
 /* FOOTER */
-.redesFooterContenedor {
+.footerContenedor {
+  display: flex;
+  flex-flow: column nowrap;
   height: 100%;
   width: 20%;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  margin: 0; }
+  .footerContenedor .footerContenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%; }
 
 footer {
   display: flex;
