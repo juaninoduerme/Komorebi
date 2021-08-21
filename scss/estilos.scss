@@ -62,19 +62,15 @@ h2 {
 
 p {
     font-size: 1.5rem;
-    margin: 5%;
     text-align: justify;
+    margin: 7% auto;    
 }
 
 .pClaro {
-    font-size: 1.2rem;
-    margin: 5%;
-    text-align: justify;
     color: $colorCrema;
-}
-
-.parrafoTarjeta {
+    font-size: 1.1rem;
     text-align: center;
+    margin: 7%;    
 }
 /* ----------------------------------------------------------------------------------------------------- */
 /* LINKS */
@@ -116,6 +112,13 @@ a {
         opacity: 1;
     }
 }  
+/* ----------------------------------------------------------------------------------------------------- */
+/* IMAGENES */
+
+.imagen {
+    margin: 7% auto;
+}
+
 /* ----------------------------------------------------------------------------------------------------- */
 /* MENÚ */
 
@@ -172,26 +175,6 @@ nav {
 
 .escalar:hover {
     transform: scale(1.05, 1.05);
-}
-/* ----------------------------------------------------------------------------------------------------- */
-/* TIENDA */
-
-/* LINK */
-
-.aTienda {
-    background-color: $colorCrema;
-    color: $colorCeleste;
-    font-size: 30px;
-    height: 50px;
-    text-align: center;
-}
-
-.aTienda:hover {
-    background-color: $colorCeleste;
-    color: $colorCrema;
-    font-size: 30px;
-    height: 50px;
-    text-align: center;
 }
 /* ----------------------------------------------------------------------------------------------------- */
 /* CONTACTO */
@@ -264,6 +247,7 @@ label {
 
     .footerContenido {
         display: flex;
+        flex-flow: row nowrap;
         justify-content: center;
         align-items: center;
         padding-top: 5%;

@@ -47,17 +47,14 @@ h2 {
 /* PARRAFOS */
 p {
   font-size: 1.5rem;
-  margin: 5%;
-  text-align: justify; }
+  text-align: justify;
+  margin: 7% auto; }
 
 .pClaro {
-  font-size: 1.2rem;
-  margin: 5%;
-  text-align: justify;
-  color: #f9f2e7; }
-
-.parrafoTarjeta {
-  text-align: center; }
+  color: #f9f2e7;
+  font-size: 1.1rem;
+  text-align: center;
+  margin: 7%; }
 
 /* ----------------------------------------------------------------------------------------------------- */
 /* LINKS */
@@ -90,6 +87,11 @@ a {
   100% {
     filter: blur(0px);
     opacity: 1; } }
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* IMAGENES */
+.imagen {
+  margin: 7% auto; }
 
 /* ----------------------------------------------------------------------------------------------------- */
 /* MENÚ */
@@ -132,23 +134,6 @@ nav {
 
 .escalar:hover {
   transform: scale(1.05, 1.05); }
-
-/* ----------------------------------------------------------------------------------------------------- */
-/* TIENDA */
-/* LINK */
-.aTienda {
-  background-color: #f9f2e7;
-  color: #01baef;
-  font-size: 30px;
-  height: 50px;
-  text-align: center; }
-
-.aTienda:hover {
-  background-color: #01baef;
-  color: #f9f2e7;
-  font-size: 30px;
-  height: 50px;
-  text-align: center; }
 
 /* ----------------------------------------------------------------------------------------------------- */
 /* CONTACTO */
@@ -205,6 +190,7 @@ label {
   margin: 0; }
   .footerContenedor .footerContenido {
     display: flex;
+    flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
     padding-top: 5%; }
