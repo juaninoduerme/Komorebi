@@ -67,7 +67,7 @@ p {
 }
 
 .pClaro {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin: 5%;
     text-align: justify;
     color: $colorCrema;
@@ -220,17 +220,36 @@ label {
 
 /* BOTON */
 
-.boton {
-    color: $colorCrema;
-    background-color: $colorCeleste;
-    border-color: $colorNegro;
+.boton {    
+    border-radius: 0.25rem;
     padding: 0.5rem;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
-.boton:hover {
-    background-color: rgb(249,242,231);
+.botonContacto {
+    @extend.boton;
+    background-color: transparent;
     color: $colorCeleste;
+    border: 1px solid $colorCeleste;
+}
+
+.botonTienda {
+    @extend.boton;
+    background-color: transparent;
+    color: $colorCrema;
+    border: 1px solid $colorCrema;
+}
+
+.botonContacto:hover {
+    background-color: $colorCeleste;
+    color: $colorCrema;
+    border: 1px solid colorCeleste;
+}
+
+.botonTienda:hover {
+    background-color: $colorCrema;
+    color: $colorCeleste;
+    border: 1px solid colorCrema;
 }
 
 /* ----------------------------------------------------------------------------------------------------- */

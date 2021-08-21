@@ -51,7 +51,7 @@ p {
   text-align: justify; }
 
 .pClaro {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin: 5%;
   text-align: justify;
   color: #f9f2e7; }
@@ -170,16 +170,30 @@ label {
   padding-right: 0.5rem; }
 
 /* BOTON */
-.boton {
-  color: #f9f2e7;
-  background-color: #01baef;
-  border-color: black;
+.boton, .botonContacto, .botonTienda {
+  border-radius: 0.25rem;
   padding: 0.5rem;
-  font-size: 1.3rem; }
+  font-size: 1.2rem; }
 
-.boton:hover {
+.botonContacto {
+  background-color: transparent;
+  color: #01baef;
+  border: 1px solid #01baef; }
+
+.botonTienda {
+  background-color: transparent;
+  color: #f9f2e7;
+  border: 1px solid #f9f2e7; }
+
+.botonContacto:hover {
+  background-color: #01baef;
+  color: #f9f2e7;
+  border: 1px solid colorCeleste; }
+
+.botonTienda:hover {
   background-color: #f9f2e7;
-  color: #01baef; }
+  color: #01baef;
+  border: 1px solid colorCrema; }
 
 /* ----------------------------------------------------------------------------------------------------- */
 /* FOOTER */
@@ -224,7 +238,7 @@ footer {
   p {
     font-size: 1.1rem;
     margin: 10% auto; }
-  .boton {
+  .boton, .botonContacto, .botonTienda {
     font-size: 1.1rem; } }
 
 @media (min-width: 541px) {
